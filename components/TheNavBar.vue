@@ -7,12 +7,17 @@
       <li
         class="cursor-pointer hover:outline hover:outline-red-400 p-1 rounded"
       >
-        <NuxtLink>Quotes</NuxtLink>
+        <NuxtLink to="/">Quotes</NuxtLink>
       </li>
       <li
         class="cursor-pointer hover:outline hover:outline-red-400 p-1 rounded"
       >
-        <NuxtLink>About</NuxtLink>
+        <NuxtLink to="/add-quote">Add Quote</NuxtLink>
+      </li>
+      <li
+        class="cursor-pointer hover:outline hover:outline-red-400 p-1 rounded"
+      >
+        <NuxtLink to="/about">About</NuxtLink>
       </li>
     </ul>
   </nav>
